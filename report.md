@@ -6,7 +6,7 @@
 
 ## Описание тестов
 Запускаем наш код:
-public class Main {
+```public class Main {
     public static void main(String[] args) {
         double regularBonus = 0.3;
         double specialBonus = 0.6;
@@ -14,6 +14,7 @@ public class Main {
         System.out.println(totalBonus);
     }
 }
+```
 или запускаем его с остановами с помощью Debug.
 
 ## Результаты
@@ -21,7 +22,7 @@ public class Main {
 
 В результате тестирования выявлены следующие дефекты:
 
- * https://github.com/tosolya/java2.2/issues/1
+ * [Вещественные числа на входе не дают точный расчет на выходе](https://github.com/tosolya/java2.2/issues/1)
 
 # Общие рекомендации
  При расчетах лучше переводить вещественные значения в целочисленные, и следить за их границами и типами.
